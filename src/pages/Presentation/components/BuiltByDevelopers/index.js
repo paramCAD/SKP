@@ -48,7 +48,7 @@ function BuiltByDevelopers() {
           <MKTypography variant="h4" color="white" fontWeight="bold">
             About SKP
           </MKTypography>
-          <MKTypography variant="h1" color="white" mb={1}>
+          <MKTypography variant="h2" color="white" mb={1}>
             Ottawa&apos;s Local Handyman
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
