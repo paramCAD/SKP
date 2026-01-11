@@ -60,7 +60,7 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="100vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -73,7 +73,7 @@ function Presentation() {
         <Container>
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto" >
             <MKTypography
-              variant="h3"
+              variant="h2"
               color="white"
               mt={-6}
               mb={1}
