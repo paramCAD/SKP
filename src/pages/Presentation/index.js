@@ -71,9 +71,9 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto" >
             <MKTypography
-              variant="h1"
+              variant="h2"
               color="white"
               mt={-6}
               mb={1}
@@ -91,6 +91,11 @@ function Presentation() {
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
+              sx={{
+    backgroundColor: '#1A73E8', // change to any color you want
+    padding: 2,                 // optional padding
+    borderRadius: 2              // optional rounded corners
+  }}
             >
               Reliable installation Services provide fast, affordable, and professional home and commercial installations with experience of 10+ years in the field.
             </MKTypography>
