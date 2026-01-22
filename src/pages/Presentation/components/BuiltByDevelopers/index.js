@@ -45,9 +45,6 @@ function BuiltByDevelopers() {
     >
       <Container>
         <Grid container item xs={12} lg={8} sx={{ ml: { xs: 0, lg: 6 } }}>
-          <MKTypography variant="h4" color="white" fontWeight="bold">
-            About SKP
-          </MKTypography>
           <MKTypography variant="h2" color="white" mb={1}>
             Ottawa&apos;s Local Handyman
           </MKTypography>
